@@ -1,0 +1,41 @@
+SimpleList:
+
+Tarea:
+
+Implementar una lista de tama–ano fijo (5 nodos) donde cada nodo contenga una cadena. Operaciones:
+
+- A–adir: Introduce un nuevo nodo al final de la lista
+- Buscar: Busca en la lista una cadena determinada
+- Borrar: Elimina un nodo de la lista
+- Valores: Devuelve todos los valores (cadenas) que contiene la lista
+
+Test:
+
+
+
+======================================================================================================
+	list = List.new
+    assert_nil(list.find("fred"))
+    list.add("fred")
+    assert_equal("fred", list.find("fred").value())
+    assert_nil(list.find("wilma"))
+    list.add("wilma")
+    assert_equal("fred",  list.find("fred").value())
+    assert_equal("wilma", list.find("wilma").value())
+    assert_equal(["fred", "wilma"], list.values())
+
+    list = List.new
+    list.add("fred")
+    list.add("wilma")
+    list.add("betty")
+    list.add("barney")
+    assert_equal(["fred", "wilma", "betty", "barney"], list.values())
+    list.delete(list.find("wilma"))
+    assert_equal(["fred", "betty", "barney"], list.values())
+    list.delete(list.find("barney"))
+    assert_equal(["fred", "betty"], list.values())
+    list.delete(list.find("fred"))
+    assert_equal(["betty"], list.values())
+    list.delete(list.find("betty"))
+    assert_equal([], list.values())
+======================================================================================================

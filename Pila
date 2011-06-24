@@ -1,0 +1,23 @@
+Pila:
+
+Tarea:
+
+Implementar una pila con tama–o ilimitado. Las operaciones ser‡n:
+
+- Poner: Insertar un elemento en la cima de la pila
+- Quitar: Elimina el elemento de la cima de la pila y lo retorna
+- Cima: Retorna el elemento de la cima de la pila pero no lo elimina
+- EstaVacia?: Retorna si la pila esta vacia (true) o no (false)
+
+Test:
+
+* Crear una pila y verificar que esta vacia
+* Crear una pila, poner un objeto en la pila y verficiar que ya no est‡ vacia
+*      "        , poner un objeto en la pila, sacar el objeto, verificar que est‡ vacia
+*      "		, poner un objeto, recordarlo, sacar el objeto y verificar que es igual al introducido
+*	   "		, poner tres objetos, recordarlos, sacar cada uno y verificar que son borrados en el orden correcto
+*	   "		, sacar un objeto que no est‡ en la pila
+*	   "		, poner un objeto, consultar la cima y verificar que la pila no est‡ vacia
+*	   "		, poner un objeto, recordarlo, consultar la cima y verificar que el elemento retornado es igual al introducido
+*	   "		, consultar la cima de una pila sin elementos
+

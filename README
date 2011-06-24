@@ -3,14 +3,14 @@
 - Recursos:
 	* Screencast Kent Beck: http://pragprog.com/screencasts/v-kbtdd/test-driven-development 
 	* Libros: 
-		-> Dise–o çgil con TDD - Carlos Ble: https://www.amazon.co.uk/Dise%C3%B1o-%C3%81gil-TDD-Carlos-Jurado/dp/1445264714/ref=sr_1_1?s=books&ie=UTF8&qid=1308929266&sr=1-1
+		-> DiseÃ±o Ãgil con TDD - Carlos Ble: https://www.amazon.co.uk/Dise%C3%B1o-%C3%81gil-TDD-Carlos-Jurado/dp/1445264714/ref=sr_1_1?s=books&ie=UTF8&qid=1308929266&sr=1-1
 		-> TDD by Example - Kent Beck:https://www.amazon.co.uk/Test-Driven-Development-Addison-Wesley-Signature/dp/0321146530/ref=sr_1_1?ie=UTF8&qid=1308929233&sr=8-1
 		-> GOOS  - Steve Freeman: https://www.amazon.co.uk/Growing-Object-Oriented-Software-Guided-Signature/dp/0321503627/ref=sr_1_1?s=books&ie=UTF8&qid=1308929249&sr=1-1
 	* Canal de Youtube de James Shore: http://www.youtube.com/user/jdlshore
 
-- Introducci—n te—rica a TDD
+- IntroducciÃ³n teÃ³rica a TDD
 
 - Ejemplos:
-	* Implementaci—n de una pila: http://www.theserverside.net/tt/articles/content/TDD_Chapter/ch2.pdf
+	* ImplementaciÃ³n de una pila: http://www.theserverside.net/tt/articles/content/TDD_Chapter/ch2.pdf
 	* Katayuno -> Kata de Junio de 12meses12katas: Simple-List https://github.com/12meses12katas/Junio-Simple-Lists	
 
